@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBrewTeam - Startseite / Über uns</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #001f3f, #003366);
+            color: white;
+            transition: background 0.5s ease;
+        }
+
+        header {
+            background: rgba(0, 31, 63, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            animation: fadeIn 1s ease;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #00aaff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffff00;
+        }
+
+        main {
+            padding: 20px;
+            animation: slideIn 1s ease;
+        }
+
+        .about, .services, .projects, .contributors {
+            margin-bottom: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(0, 31, 63, 0.8);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TheBrewTeam</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#contributors">Mitwirkende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h2>Über uns</h2>
+            <p>Unser Motto: Lass uns Homebrew verändern</p>
+            <p>Unser Ziel ist es, Modden der Konsole zu vereinfachen und Homebrew besser zu machen.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Unsere Services</h2>
+            <p>Hier findest du eine Übersicht über unsere verschiedenen Dienstleistungen:</p>
+            <ul>
+                <li>Noch keine Projekte )-:</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projekte</h2>
+            <p>Unsere aktuellen Projekte und Pläne:</p>
+            <ul>
+                <li>Projekt Guides: Lass und bessere Mod Guides machen als hacks.guide!</li>
+            </ul>
+        </section>
+        <section id="contributors" class="contributors">
+            <h2>Mitwirkende</h2>
+            <p>Die Leute hinter diesem Projekt:</p>
+            <ul>
+                <li>TheErrorExe - Webentwickler und Backend</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TheBrewTeam. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
