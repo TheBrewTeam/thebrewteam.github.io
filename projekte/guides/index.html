@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBrewTeam - Projekt anzeigen: Guides</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #001f3f, #003366);
+            color: white;
+            transition: background 0.5s ease;
+        }
+
+        header {
+            background: rgba(0, 31, 63, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            animation: fadeIn 1s ease;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #00aaff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffff00;
+        }
+
+        main {
+            padding: 20px;
+            animation: slideIn 1s ease;
+        }
+
+        .about, .services, .projects, .contributors {
+            margin-bottom: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(0, 31, 63, 0.8);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="/" style="color: white; text-decoration: none;">TheBrewTeam</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#contributors">Mitwirkende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h1>Projekt: Guides</h1>
+      <p>Wir Versuchen Guides zu Homebrew zu machen, wo für es noch keine Guides gibt.</p>
+      <p>Fertige Guides:</p>
+      <ul>
+        <li><a href="/guides/how-to-connect-usb-loader-gx-to-wiilink-wfc.html">How to connect USB Loader GX to WiiLink WFC!</a></li>
+      </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 TheBrewTeam. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
