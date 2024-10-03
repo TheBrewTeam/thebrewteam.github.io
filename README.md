@@ -1,2 +1,2 @@
-# thebrewteam.github.io
-Read README.md
+# TheBrewTeam Website
+TheBrewTeam is a Placeholder.
